@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>
+    {% if title %}
+      {{ title }} | Accessibility resources
+    {% else %}
+      Accessibility resources
+    {% endif %}
+  </title>
+
+  {% if description %}
+    <meta name="description" content="{{ description }}">
+  {% endif %}
+
+  <link rel="stylesheet" href="{{ '/css/styles.css' | url }}">
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧪</text></svg>">
+</head>
+
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="wrapper">
+
+      <div class="site-identity">
+        <a class="site-title" href="/a11y-resources/" aria-label="Accessibility resources homepage"
+>
+          Accessibility resources
+        </a>
+      </div>
+
+      {# <nav aria-label="Main navigation">
+        <ul class="nav-list">
+
+          <li>
+            <a
+              href="/a11y-resources/"
+              {% if page.url == "/a11y-resources/" %}
+                aria-current="page"
+              {% endif %}
+            >
+              Home
+            </a>
+          </li>
+
+          <li>
+           <a
+              href="/a11y-resources/guidance/"
+              {% if "/guidance/" in page.url %}
+                aria-current="page"
+              {% endif %}
+            >
+              Guidance
+            </a>
+          </li>
+        </ul>
+      </nav> #}
+    </div>
+  </header>
+
+  <main id="main-content" class="wrapper">
+    {{ content | safe }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrapper">
+      <p>
+        <a href="/a11y-resources/accessibility-statement/">Accessibility statement</a>
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
