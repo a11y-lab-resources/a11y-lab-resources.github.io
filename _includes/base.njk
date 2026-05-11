@@ -7,9 +7,9 @@
 
   <title>
     {% if title %}
-      {{ title }} | Accessibility resources
+      {{ title }} - A11y Lab Resources
     {% else %}
-      Accessibility resources
+      A11y Lab Resources
     {% endif %}
   </title>
 
@@ -30,38 +30,10 @@
     <div class="wrapper">
 
       <div class="site-identity">
-        <a class="site-title" href="/a11y-resources/" aria-label="Accessibility resources homepage"
->
-          Accessibility resources
+        <a class="site-title" href="/" aria-label="A11y Lab Resources homepage">
+          A11y Lab Resources
         </a>
       </div>
-
-      {# <nav aria-label="Main navigation">
-        <ul class="nav-list">
-
-          <li>
-            <a
-              href="/a11y-resources/"
-              {% if page.url == "/a11y-resources/" %}
-                aria-current="page"
-              {% endif %}
-            >
-              Home
-            </a>
-          </li>
-
-          <li>
-           <a
-              href="/a11y-resources/guidance/"
-              {% if "/guidance/" in page.url %}
-                aria-current="page"
-              {% endif %}
-            >
-              Guidance
-            </a>
-          </li>
-        </ul>
-      </nav> #}
     </div>
   </header>
 
@@ -72,7 +44,7 @@
   <footer class="site-footer">
     <div class="wrapper">
       <p>
-        <a href="/a11y-resources/accessibility-statement/">Accessibility statement</a>
+        <a href="/accessibility-statement/">Accessibility statement</a>
       </p>
     </div>
   </footer>
