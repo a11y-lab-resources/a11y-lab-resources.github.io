@@ -18,7 +18,7 @@ Please note: We are not affiliated with any of the resources listed below, and i
 - [Who are we willing to exclude?](https://design.scotentblog.co.uk/who-are-we-willing-to-exclude/)
 - [A human future is a software laboratory](https://ahumanfuture.co/)
 - [HMRC Accessibility Empathy Hub](https://engineering.hmrc.gov.uk/accessibility-empathy-hub/)
-- [JAWS Keyboard shortcuts ( Deque University)](https://dequeuniversity.com/screenreaders/jaws-keyboard-shortcuts)
+- [JAWS Keyboard shortcuts (Deque University)](https://dequeuniversity.com/screenreaders/jaws-keyboard-shortcuts)
 
 ## Blog posts:
 - [How we made our accessibility empathy lab virtual](https://accessibility.blog.gov.uk/2020/11/12/how-we-made-our-accessibility-empathy-lab-virtual/)
@@ -38,7 +38,7 @@ Here are a list of recommended tools and equipment that you might like to includ
 - Blue badges displayed in cars
 - White cane
 - Braille examples – even a box of paracetamol has it on the side 
-- [UK Home Office accessibility posters](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https:/ukhomeoffice.github.io/accessibility-posters/posters/accessibility-posters.pdf)
+- [UK Home Office accessibility posters (PDF, 1mb)](https:/ukhomeoffice.github.io/accessibility-posters/posters/accessibility-posters.pdf)
 - Colour filters paper or plastic to support reading on a digital screen
 - [The Cambridge simulation gloves](https://www.inclusivedesigntoolkit.com/gloves/gloves.html)
 - Examples of easy read content 
@@ -62,21 +62,23 @@ Here are a list of recommended tools and equipment that you might like to includ
 ## Mobile Apps:
 - [Be My Eyes](https://www.bemyeyes.com/) – Blind support network app
 
-## Books:
-To be confirmed 
-
 ## Online videos:
 - [Accessibility Empathy Hub (YouTube playlist)](https://www.youtube.com/playlist?list=PLBZAmkUw3YZurFBbOzbaKfXKacD7DHLxv)
 - [RNIB advert showing different types of vision loss (YouTube video)](https://www.youtube.com/watch?v=64qpW4rbCQw&list=PLBZAmkUw3YZsyPNPxFkjy2-QgA7Uc_XWL)
 - [Accessibility video stories collated by Deque](https://www.deque.com/empathy-lab-online/accessibility-stories/)
 - [YouTube videos collated by Access Lab where people showcase how they use assistive technologies](https://axesslab.com/tech-youtubers/)
 
-## Movies/TV Shows:
+## Movies/TV Shows/Radio:
 - Disney Loop – Autism
 - Disney Float – Autism or special needs and parenting
 - Disney Dory – short-term memory loss
 - Disney Olaf- Frozen trailer shows the importance of audio description
+- [1800 seconds on Autism – BBC Sounds](https://www.bbc.co.uk/sounds/brand/p06sdq0x)
+- [Access All: Disability News and Mental Health - BBC](https://www.bbc.co.uk/programmes/p02r6yqw/episodes/downloads)
+- [The Assembly – ITV (YouTube playlist)](https://youtube.com/playlist?list=PLBUEM5R_1iKnlamb8euEIQOfsGAVvS57c&si=npAW00uiwDjh1APk)
 
 ## Games/Virtual Reality:
 - [UserInyerface - user experience challenge](https://userinyerface.com/)
 - [Hocus Focus - Halloween themed keyboard trap game](https://focus.hteumeuleu.com/)
+- [Accessibility lived experience simulator game](https://accessibilitygame.nl/en/)
+- [Accessibility maze - web navigation game](https://de.torontomu.ca/wa/maze.html)

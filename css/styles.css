@@ -82,7 +82,7 @@ body {
 
 .site-title {
   display: inline-block;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; - Would be needed if we include a nav */ 
   color: var(--brand);
   font-size: 1.25rem;
   font-weight: 700;

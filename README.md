@@ -34,7 +34,7 @@ npm start
 The site will usually be available at:
 
 ```text
-http://localhost:8080/a11y-resources/
+http://localhost:8080/
 ```
 
 Changes to files will automatically rebuild the site.
