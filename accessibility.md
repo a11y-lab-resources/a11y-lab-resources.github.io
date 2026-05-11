@@ -16,7 +16,6 @@ We could also use the W3 a11y statement generator: https://www.w3.org/WAI/planni
 -->
 
 # Accessibility
-
 This statement was created on 11 May 2026 using the [W3C Accessibility Statement Generator Tool](https://www.w3.org/WAI/planning/statements/).
 
 ## Conformance status
