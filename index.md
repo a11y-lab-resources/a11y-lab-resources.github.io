@@ -38,7 +38,7 @@ Here are a list of recommended tools and equipment that you might like to includ
 - Blue badges displayed in cars
 - White cane
 - Braille examples – even a box of paracetamol has it on the side 
-- [UK Home Office accessibility posters (PDF, 1mb)](https:/ukhomeoffice.github.io/accessibility-posters/posters/accessibility-posters.pdf)
+- [UK Home Office accessibility posters (PDF, 1mb)](https://ukhomeoffice.github.io/accessibility-posters/posters/accessibility-posters.pdf)
 - Colour filters paper or plastic to support reading on a digital screen
 - [The Cambridge simulation gloves](https://www.inclusivedesigntoolkit.com/gloves/gloves.html)
 - Examples of easy read content 
