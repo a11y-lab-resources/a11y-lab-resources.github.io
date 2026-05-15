@@ -26,8 +26,8 @@ Please note: We are not affiliated with any of the resources listed below, and i
 - [How to open a budget accessibility simulation lab](https://accessibility.blog.gov.uk/2021/05/17/how-to-open-a-budget-accessibility-simulation-lab/)
 - [Remote accessibility personas based testing](https://accessibility.blog.gov.uk/2021/03/30/remote-accessibility-persona-testing/)
 
-## Physical locations/bars:
-Here is a full list of the Accessibility Bars and Labs across the government estate:
+<!-- ## Physical locations/bars:
+Here is a full list of the Accessibility Bars and Labs across the government estate: -->
 
 ## Physical Objects:
 Here are a list of recommended tools and equipment that you might like to include in an accessibility bar set up:

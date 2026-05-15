@@ -146,20 +146,80 @@ a:focus {
   text-decoration-thickness: max(3px, 0.1875rem);
 }
 
-.skip-link {
-  position: absolute;
-  left: -9999px;
-  padding: 0.75rem 1rem;
-  background: var(--focus);
-  color: #000;
-  font-weight: 700;
-  z-index: 100;
+/* Skip link styles adapted from GOV.UK Design System https://design-system.service.gov.uk/components/skip-link/ */
+.govuk-skip-link:not(:active):not(:focus):not(.\:focus) {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    clip: rect(0 0 0 0) !important;
+    -webkit-clip-path: inset(50%) !important;
+    clip-path: inset(50%) !important;
+    border: 0 !important;
+    white-space: nowrap !important;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
-
-.skip-link:focus {
-  left: 1rem;
-  top: 1rem;
-  outline: 3px solid #000;
+.govuk-skip-link {
+    text-decoration: underline;
+    text-decoration-thickness: max(1px, 0.0625rem);
+    text-underline-offset: 0.1578em;
+}
+.govuk-skip-link:link,
+.govuk-skip-link:visited,
+.govuk-skip-link:active {
+    color: var(--text, #0b0c0c);
+}
+.govuk-skip-link:focus {
+    color: var(--text, #0b0c0c);
+}
+.govuk-skip-link {
+    font-family: "Atkinson Hyperlegible", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+@media print {
+    .govuk-skip-link {
+        font-family: sans-serif;
+    }
+}
+.govuk-skip-link {
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.25;
+}
+@media print {
+    .govuk-skip-link {
+        font-size: 14pt;
+        line-height: 1.2;
+    }
+}
+.govuk-skip-link {
+    display: block;
+    padding: 10px 15px;
+}
+@supports (padding: max(calc(0px))) {
+    .govuk-skip-link {
+        padding-right: max(15px, calc(15px + env(safe-area-inset-right)));
+        padding-left: max(15px, calc(15px + env(safe-area-inset-left)));
+    }
+}
+.govuk-skip-link:focus {
+    outline: 3px solid;
+    outline-color: var(--focus, #ffdd00);
+    outline-offset: 0;
+    background-color: var(--focus, #ffdd00);
+}
+@media (forced-colors: active) {
+    .govuk-skip-link:focus {
+        outline-offset: -3px;
+    }
+}
+.govuk-skip-link-focused-element:focus {
+    outline: none;
 }
 
 main {
